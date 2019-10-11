@@ -4,7 +4,7 @@
 
 [Visual Studio 2019](https://visualstudio.microsoft.com/vs/)。
 
-UrhoSharp (Xamarin) 官网：https://docs.microsoft.com/zh-cn/xamarin/graphics-games/urhosharp/
+UrhoSharp (Xamarin)：https://docs.microsoft.com/zh-cn/xamarin/graphics-games/urhosharp/
 
 Urho3D ：https://urho3d.github.io/
 
