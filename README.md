@@ -1,51 +1,18 @@
-# UrhoSharp 2019 演示
+# UrhoSharp 2019 
 
-UrhoSharp 是个优秀的开源游戏引擎，但官方的演示如今要改很多东西才能运行，为了让大家玩的开心，本喵翻新了演示里最重要的部分。
 
-## 运行指南
 
-* 安装 [Visual Studio 2019](https://visualstudio.microsoft.com/vs/)。
-
-### 桌面
-
-* 通过 Installer 安装默认工作负载：.NET Core 跨平台开发。
-* 在文件夹 SamplyGame\SamplyGame.Desktop 下执行 dotnet run 玩游戏。
-* 在文件夹 FeatureSamples\Urho.Samples.Desktop 下执行 dotnet run 运行功能展示，输入数字如 19。
-
-### 移动
-
-* 通过 Installer 安装默认工作负载：使用 .NET 的移动开发、通用 Windows 平台开发。
-* 打开 SamplyGame\SamplyGame.sln，编译 SamplyGame.Droid，连接安卓设备后部署、运行。
-* 打开 FeatureSamples\FeatureSamples.sln，编译 FeatureSamples.Droid，同上。
-
-### 可视化
-
-* 安装 [.NET Core 3.0](https://dotnet.microsoft.com/download/dotnet-core/3.0)。
-* 打开 UrhoAssetImporter\UrhoAssetImporter.sln（如果 .NET Core 3.0 SDK 是预览版，定位到工具，选项，环境，预览功能，勾选“使用 .NET Core SDK 的预览”），编译 UrhoSharp.Viewer.Wpf。
-
-#### 使用 Wpf 编辑器
-
-* 运行 bin 目录下的 UrhoSharp.Viewer.Wpf.exe，定位到 UrhoAssetImporter\SampleData，选择 MainScene.xml。
-* 鼠标左右键、WASD 控制视图，Q、E 开关控制台、信息。
-* 找到名为 Cube 的节点，将 Position 由“0 0.5 0”改为“0 3 0”。
-* 选择 Materials\Skybox.xml，将 diffuse 由“Textures/Skybox.xml”改为“Textures/Skybox2.xml”。
-* 重新选择 MainScene.xml 预览改动。
-
-#### 使用原生编辑器
-
-* 下载 Urho3D 编辑器（链接见下方），运行 bin\Editor.bat，File - Open Scene (Ctrl + O)，打开 /UrhoAssetImporter/SampleData/MainScene.xml。
-
-## 链接
+[Visual Studio 2019](https://visualstudio.microsoft.com/vs/)。
 
 UrhoSharp (Xamarin) 官网：https://docs.microsoft.com/zh-cn/xamarin/graphics-games/urhosharp/
 
-Urho3D 官网：https://urho3d.github.io/
+Urho3D ：https://urho3d.github.io/
 
-Urho3D 编辑器：https://sourceforge.net/projects/urho3d/files/Urho3D/
+Urho3D ：https://sourceforge.net/projects/urho3d/files/Urho3D/
 
-UrhoSharp 源码：https://github.com/xamarin/urho
+UrhoSharp：https://github.com/xamarin/urho
 
-Urho3D 源码：https://github.com/urho3d/Urho3D
+Urho3D：https://github.com/urho3d/Urho3D
 
 # UrhoSharp samples
 
